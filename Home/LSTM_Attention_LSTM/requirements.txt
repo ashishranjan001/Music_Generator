@@ -1,0 +1,5 @@
+keras==2.2.5
+keras.self.attention==0.42.0
+music21==5.5.0
+numpy==1.18.1
+tensorflow==1.15
