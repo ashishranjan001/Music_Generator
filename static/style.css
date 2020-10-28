@@ -1,0 +1,198 @@
+
+/* #76e776 */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+   background-image: url("bg.jpg");
+    
+}
+.container {
+    width: 1100px;
+    padding:0;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+input {
+    outline: none!important;
+}
+p{
+    font-size: 12px;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+section#formHolder {
+    padding-top: 40px;
+   
+}
+.row{
+    margin:0;
+}
+.backg1 {
+    position: absolute;
+    top:30px;
+    left:950px;
+    width:250px;
+    height:250px;
+}
+.backg2 {
+    position: absolute;
+    width:250px;
+    height:250px;
+    top:300px;
+    left:900px;
+}
+.brand {
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 210px 90px auto 35px;
+    padding: 20px;
+    background: url(https://goo.gl/A0ynht);
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    min-height: 570px;
+    position: relative;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+}
+
+.brand::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(253deg,#3ba5b4 0,#38ba8a 100%);
+    z-index: -1;
+}
+a.logo {
+    color: #76e776;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1em;
+}
+.heading {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 20px 10px;
+    text-transform: uppercase;
+    text-align: center;   
+}
+
+h2 {
+    font-size:55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+/* Made changes in the style of switch button*/
+a.switch {
+    margin-left: 50px;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #519951;
+    padding: 5px 9px;
+    background-color: white;
+    border-radius: 19px;
+    border: 2px solid white;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s;
+}
+a.switch:hover {
+    color:white;
+    background-color:transparent;
+}
+footer {
+    text-align: center
+}
+.flink, .flink:focus {
+    color: #b8b09f;
+    transition: all .3s;
+    text-decoration: none !important;
+}
+.flink:hover {
+    color: #76e776;
+}
+.form-group {
+    margin-bottom: 25px;
+    display: flex;
+}
+footer{
+    background-color: black;
+    color: white;
+ height:100%;
+ padding:0 10px;
+
+}
+.social {
+    font-size: 25px;
+}
+a.fa.fa-linkedin-square {
+    transition:0.3s all;
+    padding: 10px 20px;
+    color:#3ba5b4;
+}
+a.fa.fa-envelope {
+    transition:0.3s all;
+    padding: 0 20px;
+    color:#3ba5b4;
+}
+a.fa.fa-facebook-square {
+ transition:0.3s all;
+    padding: 0 20px;
+    color:#3ba5b4;
+}
+.issues{
+    text-align: center;
+    width:100%;
+    cursor: pointer;
+}
+.links {
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    transform: translate(-100%,-100%);
+}
+ul.link-list {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size:30px;
+}
+.col-sm-9{
+    padding:0;
+}
+.col-sm-3{
+    padding:0;
+}
+ul.images {
+    list-style: none;
+    padding: 0;
+}
+.logo-div{
+    width: 10vh;
+    background-color: white;
+    padding:10px;
+    margin-left: -36px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.300);
+}
+
+midi-player {
+    padding-left: 400px;
+    padding-bottom: 30px;
+    color: #333;
+}
